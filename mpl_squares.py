@@ -6,6 +6,7 @@ y_values = [x**2 for x in x_values]
 plt.style.use('dark_background')
 fig, ax = plt.subplots()
 ax.scatter(x_values, y_values, c=y_values, cmap=plt.cm.Blues, s=10)
+## all colormaps available in pyplot are ag https://matplotlib.org in Examples -> Color -> Colormap reference 
 
 # Set chat title and lavel axes.
 ax.set_title("Square Numbers", fontsize=24)
